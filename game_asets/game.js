@@ -617,6 +617,9 @@ if (pageIndex !== -1) {
 visitedPages.unshift(currentPage);
 localStorage.setItem('visitedPages', JSON.stringify(visitedPages));
 
+function home(){
+  window.location.reload();
+}
 
 function gra(){
   var bodyElement = document.body;
