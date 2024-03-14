@@ -25,6 +25,7 @@ function searchGames() {
 
   sortButtonsAlphabetically();
 }
+//this func is allso in game.js in asetss below
 function go_to_page(url){
   var html = `
 <!DOCTYPE html>
@@ -64,6 +65,7 @@ function go_to_page(url){
   document.close();
 
 }
+//this func is allso in game.js in asetss above
 
 window.addEventListener('load', () => sortButtonsAlphabetically());
 function getStoredURLs() {
