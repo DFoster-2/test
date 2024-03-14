@@ -39,7 +39,7 @@ function go_to_page(url){
 </head>
 <body>
 <div class="Bside">
-  <a href="#home" class="home"><span onclick="home()" class="material-symbols-outlined">home</span>Home</a>
+  <a href="#home" class="home"><span onclick="home()"><span class="material-symbols-outlined">home</span>Home</span></a>
   <a href="#Search" class="qac"><span onclick="openq()"><span class="material-symbols-outlined">search</span>Search</span> </a>
 </div>
 
